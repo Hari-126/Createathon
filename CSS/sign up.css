@@ -1,0 +1,70 @@
+/* General body styling */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+  color: #333;
+  text-align: center;
+}
+
+/* Styling for the main heading */
+h1 {
+  font-size: 2.5em;
+  color: #444;
+  margin-top: 20px;
+}
+
+/* Container for the signup form */
+.signup-container {
+  background-color: #fff;
+  width: 90%;
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+/* Subheading inside the container */
+.signup-container h2 {
+  font-size: 1.8em;
+  margin-bottom: 20px;
+  color: #555;
+}
+
+/* Styling for form inputs */
+.signup-container input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1em;
+}
+
+/* Styling for the submit button */
+.signup-container button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 1em;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background-color 0.3s ease;
+}
+
+/* Hover effect for the button */
+.signup-container button:hover {
+  background-color: #0056b3;
+}
+
+/* Adding responsiveness for smaller devices */
+@media (max-width: 600px) {
+  .signup-container {
+      width: 95%;
+  }
+}
